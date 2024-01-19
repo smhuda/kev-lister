@@ -3,7 +3,7 @@ This python program grabs the CISA Known Exploited Vulnerability (KEV) list from
 
 ## Usage
 ```normal
-python kev-lister
+python kev-lister.py
 ```
 ## Description
 This will grab the CISA KEV list from <https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json> and then parse the CVEs in plaintext in the format of `kev-cves-{current_date}.txt`.
